@@ -1,0 +1,103 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.isibody{}
+
+
+.navbar{
+    background-color: rgb(209, 56, 56);
+    width: 100%;
+    height: 10vh;
+}
+.ul-navbar{
+    background-color: rgb(192, 23, 23);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.li-navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover{
+    background-color: rgb(229, 71, 71);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 6px;
+
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.a-navbar1{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 200px;
+}
+
+.a-navbar2{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 200px;
+}
+
+
+.content{
+    background-color: rgb(113, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img-content1{
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+.footer{
+    background-color: rgb(163, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.footer1{
+    font-size: 50px;
+    color: white;
+}

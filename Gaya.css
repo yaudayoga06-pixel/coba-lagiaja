@@ -1,0 +1,103 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.isibody{}
+
+
+.navbar{
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+}
+.ul-navbar{
+    background-color: gray;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.li-navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover{
+    background-color: rgb(27, 23, 23);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 6px;
+
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.a-navbar1{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 200px;
+}
+
+.a-navbar2{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 200px;
+}
+
+
+.content{
+    background-color: rgb(255, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img-content1{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+.footer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.footer1{
+    font-size: 50px;
+    color: white;
+}
